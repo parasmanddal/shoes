@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Shoes Website || Web Addicted </title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper js cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shoe-prints"></i> shoes</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#products">products</a>
+            <a href="#featured">featured</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="search here...">
+            <label class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="slides-container">
+            
+            <div class="slide active">
+                <div class="content">
+                    <span>new winter</span>
+                    <h3>welcome to paras shoes collection</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim consequatur reprehenderit.</p>
+                    <button class="btn">
+                        <span>shop now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/header-1.png?raw=true" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span>new winter</span>
+                    <h3>shoes collection</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim consequatur reprehenderit.</p>
+                    <button class="btn">
+                        <span>shop now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/header-2.png?raw=true" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- latest product section starts -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"><span>latest</span> products</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/banner1.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/banner2.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/banner2.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/banner2.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/banner1.jpg?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSExIVFhIWEBUVEhcXERASEhgQFxcXGBgRFRYYHSogGBolGxcWITEiJSkrLi4uFx8zODMsNygtLisBCgoKDg0NDg0NDysZFRkrKzcrKy0rKy0tLSsrKysrKysrLTctLSsrKysrKysrKysrKystKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQIDBAYHAQj/xABIEAACAQMABQgGBgcFCQEAAAAAAQIDBBEFEiExUQYHE0FhcZGhIjJCgbHBM1JictHwFEOSlKKywkRUY4KjIyRTc4OT0uHxCP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AO4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKKtSMU5SajFLMm2kklvbb3IjNB8pLW8c1b1lNweJLEovGcayTSzHK3rYBLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEJpzlZZWj1a9eMamM6izOpqvc3CO1J8WBNkfpnTVC1hr16kYLDwnJKUsdUV1s4zyi52byrNxttW3p5eq9SNSq11NuXoxfXhJ97OdaQ0lcXFRzq1Klafq68m5PHBcPcBvPLjl/Uv30cM07dZ/2aksz2+tUx2Y2bkQ3IbS9S3v6Dpt+nXp05LqlSqSUZRfHqfekWNFX76Ka1HBKD3ppZae7i8/Ix+T2lKdte0LmpDXp06ynKK39fpx4tZTx14RR9VAsWV3CtThVpyU6c4qUJJ5Ti1lNF8gAAAeJnO+eHlZK1oxtqUtWrXjJyknhwoLY2uDk9ifBSNA5p+WEra8VCbXQXM4xll7Y1d0Jp9reGvtLgB9CAAAAAAAAAAAAAAAAAAACzd3dOlHWqVIQjxnKMV4s0TTfOzZUteNFTrTimotJRoufDXbzjtSe4DoJrWneXdhaqalXjOrH9VTaqVXL6uFsj3to4/pznVvq8JQ1oUoyyn0MJKeq/Z15N471hmoWl50cnlZi9r2bUBtXKrnAv7qbxVnb084jClJxaXU5TWJSfguwh7SM3TlmTnUmm3Um5Sbk/ak223swjGleUlNzipznLC1XnGfsrG8xrq+qPKfo4bTS35XUyjKurSMKSc5wdXO3DbW3qT3kX0qjhxznins7iiT7fm/FlmTIrLq6RqTWG9nZkxpSKGFIDoPNVzgfoE/0a4bdnOWYy2voaj3yx9R9fB7eJ9BW1xCpCM6cozhJZjKLUotPrTW8+Pck3yb5VXlg821Zxi3mVOXp0X/AJHsT7VhhH1YY2kr+nb0p1qslGnCLlJvgupcXwRxWhz2Xerh2tFyxvUppeDl8zVOVfLK7v2unmlTTzGlBatNP6z65PteewDE5YafnfXVS5kmlJ4pxfs04+rD4t9rZBQqNNNPDTyn1pramVSeS31hX1lyU0m7mzt7iWNapQhKWHla+PS88ksc/wCY+/6TRip9dGvUpvuk+kXlUx7joAQAAAAAAAAMHSemLe2SdetTp53a84xb7lvZk3VXVi2fKmltL1bivOtVm5TlN7W84jl4guCXAD6BvOcvRlP9e5v7FKpLzaS8yDuueK2X0dvVn2ycKa+ZxB1Mnms/z4AdYvOeKs/orelHtlKdR+WDX9Ic5Okaqx0/RprGKcIQ38JYcl4mjqT/AD2bD3b+ewozbzSNSq81Kkpv7UnL4mA443N7t2zHeXFH8+7KCkvh4PeBbhTfy6+9FTj+exr8T3pPl4rrL1nTjKpCM3iDqRUnwg5LL8MgbdyX5OzhbTvHHNeVKbtY4y1iHrpY9aU5U0s9TfE5+pH0TSpbMR9F6qguyUkml+3Xiv8Apo1zSXI2xqy6R0tXWes9SUoLVevPYlsT1IJd88gcabKG+rrOv0uSNnS/UxlJYWZa010qxTw8vG2pKTxwpFi4v7K12a1KDWq46sYyqYTahLEVnKgnU2+1OPARXLrfRlxNro6NSSeUsQkllb/SezZ17dhmUeTV1JJuChFvCc5xin93Dbl7kzYtLcu1JONGisPO2olq4zmMdVbWvaeXtk23wNU0jpmvWbdSrJ56k9VY4YXV2EGXU0ZQpbK116X1aVJzkux6zWPei1LSlCCxSt4N52VK2tUnj7mtqLwZE6p5qgZNS51m28ZfBRivcksIp6TtLKp5POiYF6Uy05PcFTZditm1Adm//PV56N1R+1Tqr3pwf8sTsRwLmJpP9MrzT2RtdvDLqRx/KzvkXlZCPQAAAAAAAY2kE9TK9lp+Bw/nB5ua3SzurKHSUptznSj9JCbeZOC9qLe3C2rgzvDRG17KUXmG2PDrX4gfJ8pSi3GScZLKcWnGS7GntRV0mc+/h1/+z6b0hou2uVi4oUqv/MpQlJdzayiAu+bDRk3lUJwf+HXqpfstteRSuCOp8/NDpfz7sHYrrmctXthc14dko0qi+CZGV+ZqXsX0f81CS+EiDmCqfLyPGzos+Z256ru3feq0f6WeR5oLrrubbxrP+gDneSqMzpVLmeq+3eUl92jUl8WiQt+aO3X0l3Wl2QpU4ecsgalofl/cUIKE4qqo6uq5ScZJRy0m8PW243/VRXd84ldrFOjThsaWW57MU12dVP8AiZ0Oy5ttGw2ujVqv/ErTx+zDCNj0foO3ofQ2tCm+MaUNf3yxnzKOGxo6Xvs6sLicZNv0YulT9KUpb9i3ylvfWSejuaO9ntq1KFFb2nJ1Z9vowWP4jtk1LrbLeAOd2PNBaxw611WqPhCEKUc+/WZN23N1omn/AGZzf261WXlnHkbSkVRpZAgqfJLRkfV0fbe+lGf82S+uT1j/AHG1/dqP/iTCUVsScn2bvEuLP1P4ogQD5L2D32Fr+7UvwKJcjNHP+wW/upqPwNico+1GS9zx4oqgoPc14galV5v9GS32aX3alaK8pHsOb3Rf90/1q7/qNv6JFSgkERmhdDW9rB07ejGlGUsyxlyk+MpPaydtJbMcPh1GJGSe3qXxLtjLMnwSAzQARQAAAAAKXNcV4nrRblbxe+KAs3VKnLe0nxys+8i69To/1kGuycc+9N58CVnYU3vj8TBueTVvPfF+6TAsUdIxlucZdzRfVyutEXW5v7VvKnWg+MauH8C5S5ISh6l7cY4S6Gfm458yiR6aHDyPVOBhvQNwt11F/et0/hNFM9EXnVVoNdtOon5SAkFKHYe9JDONm5eefwI16MveNu/+6vky29G3yecW72Y+kqrrf2HxAlJ3MUW5XXAj6mjr5prVt02mvpKm/wDYKaujtIeyrdd86r/oAzJVmy22yGnobTLUl01ms+q1CvmPi8MwHyW03nP6bb+rj6OWPvYxvA2hSKtfi3jwNbhoDTax/vFpLvp1U34GfR0dpZesrSXdUrQ+MWBNwqJbF+CLqqdq8WRdO0vvapUe3FeXktQu/ot1/wACHurL5xAkVW/P/wAPHOL3pP3Jkc6N0t1D/WplqdO86rVfvEF8gJNuHau6TRQ6kODfe2RTpaQe61pLvuU/hAvW2jr1vM1SXYm359YGfFym9WK2dm5d5LW1FQjhe/vLFvCrFYxDHZsMqOesgqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/9k=" alt="">
+                </div>
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">$170.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(50)</span>
+                    </div>
+                    <a href="#" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- latest product section ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/Send%20gift.png?raw=true" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 40% off</h3>
+                <button class="btn">
+                    <span>shop now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner2.jpg" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 40% off</h3>
+                <button class="btn">
+                    <span>shop now</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- featured product section starts -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"><span>featured</span> products</h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/product-1.png?raw=true" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nike shoes</h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/product-2.png?raw=true" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nike shoes</h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/product-3.png?raw=true" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nike shoes</h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/product-4.png?raw=true" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nike shoes</h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/product-5.png?raw=true" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nike shoes</h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/product-6.png?raw=true" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nike shoes</h3>
+                        <div class="price">$20.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <!-- featured product section ends -->
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"><span>client's</span> review</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/pic-1.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>lexxa paul</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem optio at quisquam tenetur ipsum.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/pic-2.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>lexxa paul</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem optio at quisquam tenetur ipsum.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/pic-3.png?raw=true" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>lexxa paul</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorem optio at quisquam tenetur ipsum.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- send gift section starts -->
+
+    <section class="send">
+
+        <div class="container">
+
+            <div class="content">
+                <h2 class="title">send gift now</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur culpa quibusdam porro.</p>
+                <form action="">
+                    <input type="text" class="input" placeholder="House Address">
+                    <a href="#" class="btn">send</a>
+                </form>
+            </div>
+            <div class="image">
+                <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/Send%20gift.png?raw=true" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- send gift section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="https://github.com/WebAddicted9/Responsive-Shoes-Website/blob/main/Day-3-Responsive-Shoes-Website/images/contact.png?raw=true" alt="">
+            </div>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Your Number">
+                    <input type="text" placeholder="Your Subject">
+                </div>
+                <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magnam.</p>
+            </div>
+
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#">pricing</a>
+                <a href="#">discount</a>
+                <a href="#">refund policy</a>
+                <a href="#">shipping mode</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">products</a>
+                <a href="#">featured</a>
+                <a href="#">review</a>
+            </div>
+
+            <div class="box">
+                <h3>social links</h3>
+                <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9197679"> <i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="credit">
+        &copy; custamize by paras  
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+</body>
+</html>
